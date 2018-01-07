@@ -1,0 +1,171 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image_text_view"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/dot" />
+
+    <TextView
+        android:id="@+id/tag_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/image_text_view"
+        android:layout_marginLeft="80dp"
+        android:layout_centerInParent="true"
+        android:text="Create your opportunity"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#4689C8"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mission_text_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_text_view"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:text="Dot Kenya is a movement of daring "
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/mission_text_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_text_view"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="30dp"
+        android:text="young social innovators who are"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/mission_text_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_text_view"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="30dp"
+        android:text="creating opportunities and "
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/mission_text_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_text_view"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="30dp"
+        android:text="transforming communities"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp">
+
+        <ImageView
+            android:id="@+id/image_text_view2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@id/mission_text_view2"
+            android:layout_below="@id/image_text_view2"
+            android:src="@drawable/clok1" />
+
+        <TextView
+            android:id="@+id/email_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/image_text_view3"
+            android:text="Monday-Friday 8:00AM - 5:00PM "
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp">>
+
+        <ImageView
+            android:id="@+id/image_text_view2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@id/mission_text_view2"
+            android:layout_below="@id/image_text_view2"
+            android:src="@drawable/tele2" />
+
+        <TextView
+            android:id="@+id/email_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/image_text_view3"
+            android:text="+254 705 810 200 "
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp">>
+
+        <ImageView
+            android:id="@+id/image_text_view3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/image_text_view2"
+            android:src="@drawable/email" />
+
+        <TextView
+            android:id="@+id/email_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/image_text_view3"
+            android:text="kenya@dotrust.org"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp">>
+
+        <ImageView
+            android:id="@+id/image_text_view3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/image_text_view2"
+            android:src="@drawable/location1" />
+
+        <TextView
+            android:id="@+id/email_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/image_text_view3"
+            android:text="Museum Hill Centre, 3rd Floor Muthithi Rd, Nairobi City Kenya"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
